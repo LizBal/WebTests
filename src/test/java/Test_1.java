@@ -16,6 +16,9 @@ public class Test_1 {
         System.setProperty(chromeDriver,driverPath);
         WebDriver driver = new ChromeDriver();
 
+
+
+
         driver.get(url);
         Thread.sleep(3000);
 
